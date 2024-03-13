@@ -85,6 +85,8 @@ body {
     font-size: 1.5rem;
     border-radius: 10px;
     cursor: pointer;
+    opacity: 0.6;
+    pointer-events: none;
 }
 
 span {
@@ -98,6 +100,21 @@ span {
     text-align: center;
     font-size: 1.5rem;
     
+}
+
+.not-palindrome {
+    color: red;
+    font-weight: 500;
+  }
+  
+  .palindrome {
+    color: green;
+    font-weight: 500;
+  }
+
+.active {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .show {
